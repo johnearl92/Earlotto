@@ -13,14 +13,39 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_centerInParent="true">
-
+        <!--swertres(0-9 exact order, balik2)  6/58 6/55 6/49 6/45 6/42-->
         <Button
-            android:text="Button"
+            android:text="@string/suetres"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button" />
+            android:id="@+id/button_suetres" />
+        <Button
+            android:text="@string/lotto6_58"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_6_58" />
+        <Button
+            android:text="@string/lotto6_55"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_6_55" />
+        <Button
+            android:text="@string/lotto6_49"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_6_49" />
+        <Button
+            android:text="@string/lotto6_45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_6_45" />
+        <Button
+            android:text="@string/lotto6_42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_6_42" />
 
     </LinearLayout>
 
