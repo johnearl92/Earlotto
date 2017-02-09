@@ -20,32 +20,38 @@
             android:text="@string/suetres"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button_suetres" />
+            android:id="@+id/button_suetres"
+            android:onClick="startSuetres"/>
         <Button
             android:text="@string/lotto6_58"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button_6_58" />
+            android:id="@+id/button_6_58"
+            android:onClick="startLotto658"/>
         <Button
             android:text="@string/lotto6_55"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button_6_55" />
+            android:id="@+id/button_6_55"
+            android:onClick="startLotto655"/>
         <Button
             android:text="@string/lotto6_49"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button_6_49" />
+            android:id="@+id/button_6_49"
+            android:onClick="startLotto649"/>
         <Button
             android:text="@string/lotto6_45"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button_6_45" />
+            android:id="@+id/button_6_45"
+            android:onClick="startLotto645"/>
         <Button
             android:text="@string/lotto6_42"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button_6_42" />
+            android:id="@+id/button_6_42"
+            android:onClick="startLotto642"/>
 
     </LinearLayout>
 
